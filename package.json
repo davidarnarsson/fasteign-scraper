@@ -1,0 +1,33 @@
+{
+  "name": "fasteign-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes icelandic real estate listings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "email": "davidarnarsson@gmail.com",
+    "name": "Davíð Arnarsson"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "babel-core": "^6.9.1",
+    "babel-plugin-transform-async-to-module-method": "^6.8.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-3": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "elasticsearch": "^11.0.1",
+    "moment": "^2.13.0",
+    "needle": "^1.0.0",
+    "rxjs": "^5.0.0-beta.9",
+    "sanitize-filename": "^1.6.0",
+    "sanitize-html": "^1.12.0",
+    "sqlite3": "^3.1.4",
+    "winston": "^2.2.0",
+    "x-ray": "^2.3.0",
+    "yargs": "^4.7.1"
+  }
+}
